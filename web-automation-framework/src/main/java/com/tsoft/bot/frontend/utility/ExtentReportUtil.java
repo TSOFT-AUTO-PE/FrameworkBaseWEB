@@ -135,5 +135,27 @@ public class ExtentReportUtil {
         extent.flush();
     }
 
+    public synchronized void stepWarning(WebDriver driver, String descripcion) throws Exception {
+        if (automatico) return;
+        String nombreFichero = "sec" + generarSecuencia() + "-" + StringHelper.createFileNameFixed(descripcion, 10) + ".png";
+        String carpetaCreada = getCarpetaGenerada(null);
+        String ficheroGeneradoPath = takeScreenShot(driver,carpetaCreada, nombreFichero);
+        getCurrentTest(null).warning(descripcion, MediaEntityBuilder.createScreenCaptureFromPath(ficheroGeneradoPath).build());
+    }
 
+    public synchronized void stepError(WebDriver driver, String descripcion) throws Exception {
+        if (automatico) return;
+        String nombreFichero = "sec" + generarSecuencia() + "-" + StringHelper.createFileNameFixed(descripcion, 10) + ".png";
+        String carpetaCreada = getCarpetaGenerada(null);
+        String ficheroGeneradoPath = takeScreenShot(driver,carpetaCreada, nombreFichero);
+        getCurrentTest(null).error(descripcion, MediaEntityBuilder.createScreenCaptureFromPath(ficheroGeneradoPath).build());
+    }
+
+    public synchronized void stepInfo(WebDriver driver, String descripcion) throws Exception {
+        if (automatico) return;
+        String nombreFichero = "sec" + generarSecuencia() + "-" + StringHelper.createFileNameFixed(descripcion, 10) + ".png";
+        String carpetaCreada = getCarpetaGenerada(null);
+        String ficheroGeneradoPath = takeScreenShot(driver,carpetaCreada, nombreFichero);
+        getCurrentTest(null).info(descripcion, MediaEntityBuilder.createScreenCaptureFromPath(ficheroGeneradoPath).build());
+    }
 }

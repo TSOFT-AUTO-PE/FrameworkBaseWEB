@@ -1,5 +1,6 @@
 package com.tsoft.bot.frontend.steps.myflight;
 
+import com.tsoft.bot.frontend.BaseClass;
 import com.tsoft.bot.frontend.helpers.Hook;
 import com.tsoft.bot.frontend.utility.ExcelReader;
 import com.tsoft.bot.frontend.utility.ExtentReportUtil;
@@ -12,6 +13,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import java.util.HashMap;
 import java.util.List;
@@ -19,7 +21,7 @@ import java.util.List;
 import static com.tsoft.bot.frontend.pageobject.myflight.MyFlightPageObject.*;
 
 
-public class MyFlight_Login {
+public class MyFlight_Login extends BaseClass {
 
     private static final String EXCEL_WEB = "excel/MyFlight.xlsx";
     private static final String LOGIN_WEB = "Login";
@@ -32,6 +34,9 @@ public class MyFlight_Login {
     public MyFlight_Login() {
         this.driver = Hook.getDriver();
     }
+    private List<HashMap<String, String>> getData() throws Throwable {
+        return ExcelReader.data(EXCEL_WEB, LOGIN_WEB);
+    }
 
     @Given("^Ingreso a la url \"([^\"]*)\"$")
     public void ingresoALaUrl(String casoDePrueba) throws Throwable {
@@ -40,8 +45,8 @@ public class MyFlight_Login {
             int myflight = Integer.parseInt(casoDePrueba) - 1;
             String url = getData().get(myflight).get(COLUMNA_URL);
             driver.get(url);
-            Sleeper.Sleep(3500);
-            ExtentReportUtil.INSTANCE.stepPass(driver, "Se inició correctamente la página MyFlight");
+            sleep(3500);
+            stepPass(driver, "Se inició correctamente la página MyFlight");
             generateWord.sendText("Se inició correctamente la página MyFlight");
             generateWord.addImageToWord(driver);
         }catch (Exception e) {
@@ -50,7 +55,6 @@ public class MyFlight_Login {
             generateWord.sendText("Tiempo de espera ha excedido");
             generateWord.addImageToWord(driver);
         }
-
     }
 
     @When("^Ingreso el usuario \"([^\"]*)\"$")
@@ -60,8 +64,9 @@ public class MyFlight_Login {
             int myflight = Integer.parseInt(casoDePrueba) - 1;
             driver.findElement(By.name(TXT_USUARIO)).clear();
             String user = getData().get(myflight).get(COLUMNA_USUARIO);
-            driver.findElement(By.name(TXT_USUARIO)).sendKeys(user);
-            ExtentReportUtil.INSTANCE.stepPass(driver, "Se ingresó el usuario : " + user);
+            sendKeyValue(driver,"name",TXT_USUARIO,user);
+            //Assert.assertEquals(user, getText(driver,"name", TXT_USUARIO));
+            stepPass(driver, "Se ingresó el usuario : " + user);
             generateWord.sendText("Se ingresó el Usuario ");
             generateWord.addImageToWord(driver);
         }catch (Exception e){
@@ -89,29 +94,23 @@ public class MyFlight_Login {
             generateWord.sendText("Tiempo de espera ha excedido");
             generateWord.addImageToWord(driver);
         }
-
     }
 
     @Then("^se da clic en el boton Sing-IN ingresando correctamente$")
     public void seDaClicEnElBotonSingINIngresandoCorrectamente() throws Exception {
         try {
-            driver.findElement(By.name(BTN_SIGNIN)).click();
+            //driver.findElement(By.name(BTN_SIGNIN)).click();
+            click(driver, "name", BTN_SIGNIN);
             ExtentReportUtil.INSTANCE.stepPass(driver, "Se dió clic en el botón SignIN");
             generateWord.sendText("Se dió clic en el botón SignIN ");
             generateWord.addImageToWord(driver);
-        }catch (Exception e){
+        }catch (Exception e) {
             ExcelReader.writeCellValue(EXCEL_WEB, LOGIN_WEB, 1, 19, "FAIL");
             ExtentReportUtil.INSTANCE.stepFail(driver, "Fallo el caso de prueba : " + e.getMessage());
             generateWord.sendText("Tiempo de espera ha excedido");
             generateWord.addImageToWord(driver);
+        } catch (Throwable throwable) {
+            throwable.printStackTrace();
         }
-    }
-
-    private List<HashMap<String, String>> getData() throws Throwable {
-        return ExcelReader.data(EXCEL_WEB, LOGIN_WEB);
-    }
-
-    @Then("^se da clic en el boton Sing-IN mostrndo un fallo$")
-    public void seDaClicEnElBotonSingINMostrndoUnFallo() {
     }
 }

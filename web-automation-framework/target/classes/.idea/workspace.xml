@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="360574ac-4aaa-4518-a335-6fb560437bee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Evidencia.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031121390332-inicio-correctamente-pagina-myflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031121500383-fallo-caso-prueba-such-element-unable-locate-element-methodcss-selectorselector-nameusername.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031122010223-fallo-caso-prueba-such-element-unable-locate-element-methodcss-selectorselector-namepassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031122120018-fallo-caso-prueba-such-element-unable-locate-element-methodcss-selectorselector-namelogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031156120568-inicio-correctamente-pagina-myflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031157240706-inicio-correctamente-pagina-myflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031157250550-ingreso-usuario-mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031157260271-ingreso-contrasena-mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031158210203-encontro-elemento-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031637390882-inicio-correctamente-pagina-myflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031637400732-ingreso-usuario-mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031637410457-ingreso-contrasena-mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031637540242-clic-boton-signin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031707310729-inicio-correctamente-pagina-myflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031707320605-ingreso-usuario-mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031707330349-ingreso-contrasena-mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031707340349-clic-boton-signin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031719170855-inicio-correctamente-pagina-myflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031719180662-ingreso-usuario-mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031719190372-ingreso-contrasena-mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login-mercury-exitoso/sec03031719260945-clic-boton-signin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/exceptions/FrontEndException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/utility/CallerSOAP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/utility/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/driver/chrome/79.0/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/template/Evidencia.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/template/Plantila.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-reporte.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-reporte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/helpers/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/helpers/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/runner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/runner/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/steps/myflight/MyFlight_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/steps/myflight/MyFlight_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/utility/ExtentReportUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/utility/ExtentReportUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/utility/GenerateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/bot/frontend/utility/GenerateWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/excel/MyFlight.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/excel/MyFlight.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/MyFlight_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/MyFlight_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/helpers/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/helpers/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/runner/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/runner/RunTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/steps/myflight/MyFlight_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/steps/myflight/MyFlight_Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/utility/ExtentReportUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/utility/ExtentReportUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/utility/GenerateWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsoft/bot/frontend/utility/GenerateWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/excel/MyFlight.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excel/MyFlight.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/MyFlight_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/MyFlight_Login.feature" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1V57SUtJ2jtO1BzZFtzF13tAaWd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\RepositorioLocal\FrameworkBaseWEB\web-automation-framework\src\main\resources\template" />
+      <recent name="C:\Users\admin\Desktop\web-automation-framework\src\main\resources\excel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.RunTest">
+    <configuration name="Feature: MovistarFija" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/MovistarFija.feature" />
+      <option name="GLUE" value="com.tsoft.bot.frontend.helpers com.tsoft.bot.frontend.steps.movistar" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="web-automation-framework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: MovistarFija" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: MyFlight" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/MyFlight.feature" />
+      <option name="GLUE" value="com.tsoft.bot.frontend.helpers com.tsoft.bot.frontend.steps.myflight" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="web-automation-framework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: MyFlight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: MyFlight_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/MyFlight_Login.feature" />
+      <option name="GLUE" value="com.tsoft.bot.frontend.helpers com.tsoft.bot.frontend.steps.myflight" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="web-automation-framework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: MyFlight_Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: MyStore" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/MyStore.feature" />
+      <option name="GLUE" value="com.tsoft.bot.frontend.helpers com.tsoft.bot.frontend.steps.MyStore" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="web-automation-framework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: MyStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="web-automation-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsoft.bot.frontend.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsoft.bot.frontend.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.tsoft.bot.frontend.runner.RunTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RunTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="360574ac-4aaa-4518-a335-6fb560437bee" name="Default Changelist" comment="" />
+      <created>1576531102772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576531102772</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

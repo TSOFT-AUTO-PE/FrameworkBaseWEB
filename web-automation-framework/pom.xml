@@ -6,7 +6,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<apache-poi-version>3.16</apache-poi-version>
+		<apache-poi-version>4.1.1</apache-poi-version>
 	</properties>
 
 	<dependencies>
